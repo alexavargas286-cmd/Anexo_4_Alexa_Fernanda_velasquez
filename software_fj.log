@@ -1,0 +1,87 @@
+2026-11-18 11:19:04 | INFO    | ===== Inicio de la simulación Software FJ =====
+2026-11-18 11:19:04 | INFO    | Cliente registrado: Ana Lucía Torres
+2026-11-18 11:19:04 | INFO    | Cliente registrado: Jorge Rincón
+2026-11-18 11:19:04 | ERROR   | Registro de cliente rechazado: [FJ-100] Dato inválido en 'correo': 'pedro.gomez.com'. Formato de correo no válido.
+2026-11-18 11:19:04 | ERROR   | Registro de cliente rechazado: [FJ-110] Falta el parámetro obligatorio 'nombre'
+2026-11-18 11:19:04 | ERROR   | Registro de cliente con parámetros incompletos: Cliente.__init__() missing 1 required positional argument: 'telefono'
+2026-11-18 11:19:04 | WARNING | Documento duplicado: 1121456789
+2026-11-18 11:19:04 | INFO    | Servicio creado: Sala 'Sala Guaviare' (capacidad 30) - $62,500/h
+2026-11-18 11:19:04 | INFO    | Servicio creado: Alquiler de 5 x 'Portátil Lenovo' - $40,000/h
+2026-11-18 11:19:04 | INFO    | Servicio creado: Asesoría 'Ciberseguridad' nivel senior - $135,000/h
+2026-11-18 11:19:04 | ERROR   | No se pudo crear el servicio ReservaSala: [FJ-100] Dato inválido en 'tarifa_base': -20000. Debe ser un número mayor que cero.
+2026-11-18 11:19:04 | ERROR   | No se pudo crear el servicio AsesoriaEspecializada: [FJ-100] Dato inválido en 'nivel': 'master'. Opciones: junior, senior, experto.
+2026-11-18 11:19:04 | INFO    | Servicio creado: Sala 'Auditorio' (capacidad 80) - $150,000/h
+2026-11-18 11:19:04 | INFO    | Reserva #12 confirmada para Ana Lucía Torres
+2026-11-18 11:19:04 | INFO    | Reserva #12 procesada. Total: $223,125.00
+2026-11-18 11:19:04 | INFO    | Intento de procesamiento de la reserva #12 finalizado (estado: PROCESADA)
+2026-11-18 11:19:04 | INFO    | Reserva #13 confirmada para Jorge Rincón
+2026-11-18 11:19:04 | INFO    | Reserva #13 procesada. Total: $342,720.00
+2026-11-18 11:19:04 | INFO    | Intento de procesamiento de la reserva #13 finalizado (estado: PROCESADA)
+2026-11-18 11:19:04 | INFO    | Reserva #14 confirmada para Ana Lucía Torres
+2026-11-18 11:19:04 | INFO    | Reserva #14 procesada. Total: $202,500.00
+2026-11-18 11:19:04 | INFO    | Intento de procesamiento de la reserva #14 finalizado (estado: PROCESADA)
+2026-11-18 11:19:04 | ERROR   | Reserva fallida: [FJ-200] El servicio 'Auditorio' no está disponible
+2026-11-18 11:19:04 | ERROR   | Reserva fallida: [FJ-100] Dato inválido en 'horas': 20. Una sala se reserva entre 1 y 12 horas.
+2026-11-18 11:19:04 | ERROR   | Reserva fallida: [FJ-300] No se puede reservar con un cliente o servicio inexistente.
+2026-11-18 11:19:04 | INFO    | Reserva #17 confirmada para Jorge Rincón
+2026-11-18 11:19:04 | INFO    | Intento de procesamiento de la reserva #17 finalizado (estado: CONFIRMADA)
+2026-11-18 11:19:04 | ERROR   | Reserva fallida: [FJ-400] No se pudo procesar la reserva #17 | Causa: [FJ-100] Dato inválido en 'descuento': 1.5. Debe estar entre 0 y 0.99.
+2026-11-18 11:19:04 | INFO    | Reserva #17 cancelada
+2026-11-18 11:19:04 | ERROR   | Cancelación rechazada: [FJ-310] La reserva #12 ya está PROCESADA y no se puede cancelar.
+2026-11-18 11:19:04 | INFO    | ===== Fin de la simulación =====
+2026-11-18 11:19:19 | INFO    | ===== Inicio de la simulación Software FJ =====
+2026-11-18 11:19:19 | INFO    | Cliente registrado: Ana Lucía Torres
+2026-11-18 11:19:19 | INFO    | Cliente registrado: Jorge Rincón
+2026-11-18 11:19:19 | ERROR   | Registro de cliente rechazado: [FJ-100] Dato inválido en 'correo': 'pedro.gomez.com'. Formato de correo no válido.
+2026-11-18 11:19:19 | ERROR   | Registro de cliente rechazado: [FJ-110] Falta el parámetro obligatorio 'nombre'
+2026-11-18 11:19:19 | ERROR   | Registro de cliente con parámetros incompletos: Cliente.__init__() missing 1 required positional argument: 'telefono'
+2026-11-18 11:19:19 | WARNING | Documento duplicado: 1121456789
+2026-11-18 11:19:19 | INFO    | Servicio creado: Sala 'Sala Guaviare' (capacidad 30) - $62,500/h
+2026-11-18 11:19:19 | INFO    | Servicio creado: Alquiler de 5 x 'Portátil Lenovo' - $40,000/h
+2026-11-18 11:19:19 | INFO    | Servicio creado: Asesoría 'Ciberseguridad' nivel senior - $135,000/h
+2026-11-18 11:19:19 | ERROR   | No se pudo crear el servicio ReservaSala: [FJ-100] Dato inválido en 'tarifa_base': -20000. Debe ser un número mayor que cero.
+2026-11-18 11:19:19 | ERROR   | No se pudo crear el servicio AsesoriaEspecializada: [FJ-100] Dato inválido en 'nivel': 'master'. Opciones: junior, senior, experto.
+2026-11-18 11:19:19 | INFO    | Servicio creado: Sala 'Auditorio' (capacidad 80) - $150,000/h
+2026-11-18 11:19:19 | INFO    | Reserva #12 confirmada para Ana Lucía Torres
+2026-11-18 11:19:19 | INFO    | Reserva #12 procesada. Total: $223,125.00
+2026-11-18 11:19:19 | INFO    | Intento de procesamiento de la reserva #12 finalizado (estado: PROCESADA)
+2026-11-18 11:19:19 | INFO    | Reserva #13 confirmada para Jorge Rincón
+2026-11-18 11:19:19 | INFO    | Reserva #13 procesada. Total: $342,720.00
+2026-11-18 11:19:19 | INFO    | Intento de procesamiento de la reserva #13 finalizado (estado: PROCESADA)
+2026-11-18 11:19:19 | INFO    | Reserva #14 confirmada para Ana Lucía Torres
+2026-11-18 11:19:19 | INFO    | Reserva #14 procesada. Total: $202,500.00
+2026-11-18 11:19:19 | INFO    | Intento de procesamiento de la reserva #14 finalizado (estado: PROCESADA)
+2026-11-18 11:19:19 | ERROR   | Reserva fallida: [FJ-200] El servicio 'Auditorio' no está disponible
+2026-11-18 11:19:19 | ERROR   | Reserva fallida: [FJ-100] Dato inválido en 'horas': 20. Una sala se reserva entre 1 y 12 horas.
+2026-11-18 11:19:19 | ERROR   | Reserva fallida: [FJ-300] No se puede reservar con un cliente o servicio inexistente.
+2026-11-18 11:19:19 | INFO    | Reserva #17 confirmada para Jorge Rincón
+2026-11-18 11:19:19 | INFO    | Intento de procesamiento de la reserva #17 finalizado (estado: CONFIRMADA)
+2026-11-18 11:19:19 | ERROR   | Reserva fallida: [FJ-400] No se pudo procesar la reserva #17 | Causa: [FJ-100] Dato inválido en 'descuento': 1.5. Debe estar entre 0 y 0.99.
+2026-11-18 11:19:19 | INFO    | Reserva #17 cancelada
+2026-11-18 11:19:19 | ERROR   | Cancelación rechazada: [FJ-310] La reserva #12 ya está PROCESADA y no se puede cancelar.
+2026-11-18 11:19:19 | INFO    | ===== Fin de la simulación =====
+2026-11-18 11:21:56 | INFO    | Interfaz gráfica iniciada
+2026-11-18 11:43:32 | ERROR   | [GUI] Registro de cliente rechazado: [FJ-100] Dato inválido en 'documento': '11223366598'. Debe tener entre 6 y 10 dígitos.
+2026-11-18 11:43:48 | ERROR   | [GUI] Registro de cliente rechazado: [FJ-100] Dato inválido en 'telefono': '312698752'. Debe ser un celular de 10 dígitos que empiece por 3.
+2026-11-18 11:43:57 | INFO    | [GUI] Cliente registrado: Juan Ramiro
+2026-11-18 11:44:17 | INFO    | Interfaz gráfica cerrada
+2026-11-18 14:27:24 | INFO    | Interfaz gráfica iniciada
+2026-11-18 14:27:57 | ERROR   | [GUI] Registro de cliente rechazado: [FJ-100] Dato inválido en 'nombre': 'Prueba numero 1'. Solo se permiten letras y espacios.
+2026-11-18 14:28:08 | INFO    | [GUI] Cliente registrado: Prueba Uno
+2026-11-18 14:28:45 | ERROR   | [GUI] Registro de cliente rechazado: [FJ-100] Dato inválido en 'telefono': '5698741320'. Debe ser un celular de 10 dígitos que empiece por 3.
+2026-11-18 14:28:54 | INFO    | [GUI] Cliente registrado: Prueba Dos
+2026-11-18 14:29:25 | INFO    | [GUI] Servicio creado: Sala 'Sala 1 Eventos' (capacidad 500) - $75,000/h
+2026-11-18 14:32:17 | INFO    | Reserva #6 confirmada para Prueba Uno
+2026-11-18 14:32:17 | INFO    | Reserva #6 procesada. Total: $267,750.00
+2026-11-18 14:32:17 | INFO    | Intento de procesamiento de la reserva #6 finalizado (estado: PROCESADA)
+2026-11-18 14:34:11 | INFO    | Interfaz gráfica cerrada
+2026-11-20 22:57:13 | INFO    | Interfaz gráfica iniciada
+2026-11-20 23:02:42 | INFO    | Interfaz gráfica cerrada
+2026-11-20 23:12:07 | INFO    | Interfaz gráfica iniciada
+2026-11-20 23:12:44 | ERROR   | [GUI] Registro de cliente rechazado: [FJ-100] Dato inválido en 'documento': '11183631313'. Debe tener entre 6 y 10 dígitos.
+2026-11-20 23:12:57 | INFO    | [GUI] Cliente registrado: Andres Tafur
+2026-11-20 23:13:34 | INFO    | [GUI] Servicio creado: Alquiler de 2 x 'andres tafur' - $160,000/h
+2026-11-20 23:13:53 | INFO    | Reserva #4 confirmada para Andres Tafur
+2026-11-20 23:13:53 | INFO    | Reserva #4 procesada. Total: $451,248.00
+2026-11-20 23:13:53 | INFO    | Intento de procesamiento de la reserva #4 finalizado (estado: PROCESADA)
+2026-11-20 23:35:14 | INFO    | Interfaz gráfica cerrada
